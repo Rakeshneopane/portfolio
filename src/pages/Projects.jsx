@@ -1,7 +1,7 @@
 import merzeImage from "../assets/merze-image.png";
 import anvayaImage from "../assets/anvaya-image.png";
 
-function ProjectCard({ title, image, description, tech, loom, github }) {
+function ProjectCard({ title, image, description, tech, demo, loom, github }) {
   return (
     <div className="bg-white rounded-xl shadow-md overflow-hidden">
       <img src={image} alt={title} className="h-48 w-full object-cover" />
@@ -20,7 +20,7 @@ function ProjectCard({ title, image, description, tech, loom, github }) {
 
         <div className="flex gap-3">
             <a 
-              href={loom}
+              href={demo}
               target="_blank"
               rel="noreferrer"
               className="px-4 py-2 bg-blue-600 text-white rounded-lg inline-flex items-center justify-center"
@@ -52,6 +52,7 @@ export default function Projects() {
           image={merzeImage}
           description="A modern e-commerce platform with real-time inventory management, secure payment processing, and personalized recommendations."
           tech={["React", "Node.js", "MongoDB"]}
+          demo = {"https://my-ecommerce-frontend-dnhsvnqgb-rakeshneopanes-projects.vercel.app/"}
           loom = {"https://www.loom.com/share/25adf0ed43c242d1adc0fad96495302f"}
           github = {"https://github.com/Rakeshneopane/my-ecommerce-frontend.git"}
         />
@@ -61,6 +62,7 @@ export default function Projects() {
           image={anvayaImage}
           description="An intuitive CRM system designed for lead management with pipeline visualization, automated follow-ups, and detailed analytics."
           tech={["React", "Node.js", "MongoDB"]}
+          demo={"https://crm-frontend-ten-nu.vercel.app/"}
           loom = {"https://www.loom.com/share/01ec0a872c6f4316ad0ecd71b48de80c"}
           github = {"https://github.com/Rakeshneopane/CRM-frontend.git"}
         />
