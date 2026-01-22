@@ -1,7 +1,7 @@
 import merzeImage from "../assets/merze-image.png";
 import anvayaImage from "../assets/anvaya-image.png";
 
-function ProjectCard({ title, image, description, tech }) {
+function ProjectCard({ title, image, description, tech, loom, github }) {
   return (
     <div className="bg-white rounded-xl shadow-md overflow-hidden">
       <img src={image} alt={title} className="h-48 w-full object-cover" />
@@ -19,12 +19,21 @@ function ProjectCard({ title, image, description, tech }) {
         </ul>
 
         <div className="flex gap-3">
-          <button className="px-4 py-2 bg-blue-600 text-white rounded-lg">
-            Demo
-          </button>
-          <button className="px-4 py-2 border rounded-lg">
-            Code
-          </button>
+            <a 
+              href={loom}
+              target="_blank"
+              rel="noreferrer"
+              className="px-4 py-2 bg-blue-600 text-white rounded-lg inline-flex items-center justify-center"
+            > 
+              Demo 
+            </a>
+           <a 
+              href={github}
+              target="_blank"
+              rel="noreferrer"
+              className="px-4 py-2 bg-white text-black border-1 rounded-lg inline-flex items-center justify-center"
+            >  Code
+          </a>
         </div>
       </div>
     </div>
@@ -43,6 +52,8 @@ export default function Projects() {
           image={merzeImage}
           description="A modern e-commerce platform with real-time inventory management, secure payment processing, and personalized recommendations."
           tech={["React", "Node.js", "MongoDB"]}
+          loom = {"https://www.loom.com/share/25adf0ed43c242d1adc0fad96495302f"}
+          github = {"https://github.com/Rakeshneopane/my-ecommerce-frontend.git"}
         />
 
         <ProjectCard
@@ -50,6 +61,8 @@ export default function Projects() {
           image={anvayaImage}
           description="An intuitive CRM system designed for lead management with pipeline visualization, automated follow-ups, and detailed analytics."
           tech={["React", "Node.js", "MongoDB"]}
+          loom = {"https://www.loom.com/share/01ec0a872c6f4316ad0ecd71b48de80c"}
+          github = {"https://github.com/Rakeshneopane/CRM-frontend.git"}
         />
       </div>
     </section>
