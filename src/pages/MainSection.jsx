@@ -1,3 +1,5 @@
+import Resume from "../assets/Rakesh-resume.pdf"
+
 export default function MainSection() {
   return (
     <section className="min-h-[80vh] flex items-center">
@@ -17,13 +19,17 @@ export default function MainSection() {
         </p>
 
         <div className="flex justify-center gap-4">
-          <button className="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition">
+          <a
+            href="mailto:rakeshneopane@gmail.com?subject=Portfolio Contact&body=Hi Rakesh,%0D%0A%0D%0AI came across your portfolio and would like to connect."
+            className="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition">
             Contact Me
-          </button>
+          </a>
 
-          <button className="px-6 py-3 border rounded-lg hover:bg-gray-100 transition">
+          <a
+            href={Resume}
+            className="px-6 py-3 border rounded-lg hover:bg-gray-100 transition">
             Resume
-          </button>
+          </a>
         </div>
       </div>
     </section>

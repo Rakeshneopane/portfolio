@@ -14,8 +14,8 @@ export default function Connect() {
     },
     {
       platform: "LinkedIn",
-      value: "linkedin.com/in/rakeshneopane",
-      href: "https://linkedin.com/in/rakeshneopane",
+      value: "linkedin.com/rakesh-neopane",
+      href: "https://www.linkedin.com/in/rakesh-neopane/",
       icon: "",
     },
     {
