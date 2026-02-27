@@ -52,7 +52,7 @@ export default function Projects() {
           image={merzeImage}
           description="A modern e-commerce platform with real-time inventory management, secure payment processing, and personalized recommendations."
           tech={["React", "Node.js", "MongoDB"]}
-          demo = {"https://my-ecommerce-frontend-dnhsvnqgb-rakeshneopanes-projects.vercel.app/"}
+          demo = {"https://my-ecommerce-frontend-khaki.vercel.app/"}
           loom = {"https://www.loom.com/share/25adf0ed43c242d1adc0fad96495302f"}
           github = {"https://github.com/Rakeshneopane/my-ecommerce-frontend.git"}
         />
