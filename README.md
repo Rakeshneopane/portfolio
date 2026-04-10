@@ -1,51 +1,32 @@
-# Rakesh Neopane — Developer Portfolio
+# 🚀 Rakesh Neopane — Personal Portfolio
 
-A personal portfolio website showcasing my projects, skills, and experience as a full-stack web developer.
+A modern, responsive personal portfolio website built with React, Vite, and Tailwind CSS. Deployed on Vercel.
 
-## 🌐 Live Demo
-
-https://portfolio-alpha-lime-86.vercel.app/
-
-## 🛠️ Built With
-
-- **React 19** — UI library
-- **Vite 7** — build tool and dev server
-- **Tailwind CSS v4** — utility-first styling
-- **React Router DOM v7** — client-side routing
-- **Vercel** — deployment
+🔗 **Live Demo:** https://portfolio-alpha-lime-86.vercel.app/
+---
 
 ## ✨ Features
 
-- Responsive design across mobile, tablet, and desktop
-- Project showcase with live demo and GitHub links
-- Skills and technology section
-- Contact section with email and LinkedIn
-- Fast load times with Vite's optimized build
+- ⚡ Lightning-fast development and builds with **Vite 7**
+- ⚛️ Built with **React 19**
+- 🎨 Styled with **Tailwind CSS v4**
+- 🔀 Client-side routing via **React Router DOM v7**
+- 📱 Fully responsive design
+- 🚀 Deployed on **Vercel**
 
-## 🚀 Getting Started
+---
 
-### Prerequisites
+## 🛠️ Tech Stack
 
-- Node.js v18+
-- npm
+| Technology | Version |
+|---|---|
+| React | 19 |
+| Vite | 7 |
+| Tailwind CSS | 4 |
+| React Router DOM | 7 |
+| ESLint | 9 |
 
-### Installation
-
-```bash
-git clone https://github.com/Rakeshneopane/portfolio.git
-cd portfolio
-npm install
-npm run dev
-```
-
-Open [http://localhost:5173](http://localhost:5173) in your browser.
-
-### Build for Production
-
-```bash
-npm run build
-npm run preview
-```
+---
 
 ## 📁 Project Structure
 
@@ -62,6 +43,54 @@ portfolio/
 └── package.json
 ```
 
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js (v18+)
+- npm
+
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/Rakeshneopane/portfolio.git
+cd portfolio
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
+```
+
+The app will be available at `http://localhost:5173`.
+
+---
+
+## 📦 Available Scripts
+
+| Command | Description |
+|---|---|
+| `npm run dev` | Start development server |
+| `npm run build` | Build for production |
+| `npm run preview` | Preview production build locally |
+| `npm run lint` | Run ESLint |
+
+---
+
+## 🌐 Deployment
+
+This project is deployed on **Vercel**. Every push to the `main` branch triggers an automatic deployment.
+
+To deploy your own fork:
+
+1. Import the repo into [Vercel](https://vercel.com)
+2. Vercel will auto-detect the Vite framework settings
+3. Click **Deploy**
+
+---
+
 ## 🔗 Featured Projects
 
 | Project | Description | Live | Repo |
@@ -75,3 +104,8 @@ portfolio/
 - **Email:** rakeshneopane@gmail.com
 - **LinkedIn:** [linkedin.com/in/rakesh-neopane](https://linkedin.com/in/rakesh-neopane)
 - **GitHub:** [github.com/Rakeshneopane](https://github.com/Rakeshneopane)
+
+---
+
+> Feel free to fork this project and use it as a template for your own portfolio!
+
