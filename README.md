@@ -11,21 +11,8 @@ Brief introduction about yourself, your background, and your passion for develop
 - **Database**: MongoDB, SQL
 - **Tools**: Git, VS Code
 
-## Projects
-List your key projects with descriptions, technologies used, and links.
-
-### Project 1
-- Description
-- Tech Stack
-- [GitHub Link](#) | [Live Demo](#)
-
-## Experience
-Your professional experience or notable collaborations.
 
 ## Contact
-- Email: your.email@example.com
-- LinkedIn: [Your Profile](#)
-- GitHub: [Your Profile](#)
-
----
-*Last updated: 2024*
+- Email: rakeshneopane@gamil.com
+- LinkedIn: https://www.linkedin.com/in/rakesh-neopane
+- GitHub: https://github.com/Rakeshneopane
