@@ -1,6 +1,7 @@
 import merzeImage from "../assets/merze-image.png";
 import anvayaImage from "../assets/anvaya-image.png";
 import workAssignImage from "../assets/workAssign-image.png"
+import kaviosPixImage from "../assets/kaviosPixImage.png"
 
 function ProjectCard({ title, image, description, tech, demo, loom, github }) {
   return (
@@ -48,6 +49,27 @@ export default function Projects() {
       <h2 className="text-3xl font-bold mb-10 text-center">Projects</h2>
 
       <div className="grid gap-10 md:grid-cols-2">
+
+        <ProjectCard
+          title="KaviosPix"
+          image={kaviosPixImage}
+          description="KaviosPix is a full-stack photo management platform built with React, Redux Toolkit, Node.js, Express, and MongoDB that focuses on solving real-world engineering challenges such as authentication, state persistence, concurrency handling, and permission-based access control while providing secure album organization and sharing capabilities."
+          tech={["React",
+            "Redux Toolkit",
+            "React Router DOM",
+            "Node.js",
+            "Express.js",
+            "MongoDB",
+            "Google OAuth",
+            "JWT",
+            "Cloudinary",
+            "Tailwind CSS",
+            "RBAC"]}
+          demo={"https://image-app-frontend-mu.vercel.app/"}
+          loom = {"https://www.loom.com/share/0a8a820dfe4546a9bb70263e7684def3"}
+          github = {"https://github.com/Rakeshneopane/image-App-frontend"}
+        />
+
         <ProjectCard
           title="Merze"
           image={merzeImage}
