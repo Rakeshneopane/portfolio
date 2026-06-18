@@ -70,17 +70,7 @@ export default function Projects() {
           github = {"https://github.com/Rakeshneopane/image-App-frontend"}
         />
 
-        <ProjectCard
-          title="Merze"
-          image={merzeImage}
-          description="A modern e-commerce platform with real-time inventory management, secure payment processing, and personalized recommendations."
-          tech={["React", "Node.js", "MongoDB"]}
-          demo = {"https://my-ecommerce-frontend-khaki.vercel.app/"}
-          loom = {"https://www.loom.com/share/25adf0ed43c242d1adc0fad96495302f"}
-          github = {"https://github.com/Rakeshneopane/my-ecommerce-frontend.git"}
-        />
-
-        <ProjectCard
+<ProjectCard
           title="Anvaya"
           image={anvayaImage}
           description="An intuitive CRM system designed for lead management with pipeline visualization, automated follow-ups, and detailed analytics."
@@ -89,6 +79,16 @@ export default function Projects() {
           loom = {"https://www.loom.com/share/01ec0a872c6f4316ad0ecd71b48de80c"}
           github = {"https://github.com/Rakeshneopane/CRM-frontend.git"}
         />
+
+        <ProjectCard
+          title="Merze"
+          image={merzeImage}
+          description="A modern e-commerce platform with real-time inventory management, secure payment processing, and personalized recommendations."
+          tech={["React", "Node.js", "MongoDB"]}
+          demo = {"https://my-ecommerce-frontend-khaki.vercel.app/"}
+          loom = {"https://www.loom.com/share/25adf0ed43c242d1adc0fad96495302f"}
+          github = {"https://github.com/Rakeshneopane/my-ecommerce-frontend.git"}
+        /> 
 
         <ProjectCard
           title="WorkAssign"
