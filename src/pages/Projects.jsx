@@ -1,7 +1,7 @@
 import merzeImage from "../assets/merze-image.png";
 import anvayaImage from "../assets/anvaya-image.png";
 import workAssignImage from "../assets/workAssign-image.png"
-import kaviosPixImage from "../assets/kaviosPixImage.png"
+import kaviosPixImage from "../assets/kaviosPix-image.png"
 
 function ProjectCard({ title, image, description, tech, demo, loom, github }) {
   return (
@@ -95,7 +95,7 @@ export default function Projects() {
           image={workAssignImage}
           description="A full-stack task management application that helps teams organize work by projects, teams, tags, and owners."
           tech={["React", "Node.js", "MongoDB"," RBAC", "React Router DOM", "Tailwind CSS", "Joi validation", "JWT authentication"]}
-          demo={"https://work-assign-frontend.vercel.app/"}
+          demo={"https://work-assign-frontend-6wjt.vercel.app/"}
           loom = {""}
           github = {"https://github.com/Rakeshneopane/workAssign-frontend"}
         />
