@@ -1,4 +1,4 @@
-import Resume from "../assets/Rakesh-resume.pdf"
+import Resume from "../assets/Rakesh-Neopane-resume.pdf"
 
 export default function MainSection() {
   return (
