@@ -53,7 +53,7 @@ export default function Projects() {
         <ProjectCard
           title="KaviosPix"
           image={kaviosPixImage}
-          description="KaviosPix is a full-stack photo management platform built with React, Redux Toolkit, Node.js, Express, and MongoDB that focuses on solving real-world engineering challenges such as authentication, state persistence, concurrency handling, and permission-based access control while providing secure album organization and sharing capabilities."
+          description="KaviosPix is a full-stack photo management platform built with React, Redux Toolkit, Node.js, Express, and MongoDB that focuses on solving real-world engineering challenges such as authentication, state persistence, concurrency handling, and permission-based access control while providing secure album organization and sharing capabilities. It also integrates a standalone Python/FastAPI microservice for AI-powered image captioning and semantic search, using Google Gemini's generation and embedding APIs with PostgreSQL/pgvector, containerized with Docker and deployed on AWS EC2."
           tech={["React",
             "Redux Toolkit",
             "React Router DOM",
@@ -64,17 +64,33 @@ export default function Projects() {
             "JWT",
             "Cloudinary",
             "Tailwind CSS",
-            "RBAC"]}
+            "RBAC",
+            "Python",
+            "FastAPI",
+            "PostgreSQL",
+            "Docker",
+            "AWS EC2",
+            "Google Gemini API"]}
           demo={"https://image-app-frontend-mu.vercel.app/"}
           loom = {"https://www.loom.com/share/0a8a820dfe4546a9bb70263e7684def3"}
           github = {"https://github.com/Rakeshneopane/image-App-frontend"}
         />
 
-<ProjectCard
+        <ProjectCard
+          title="WorkAssign"
+          image={workAssignImage}
+          description="A full-stack task management platform with JWT authentication and role-based access control. Supports task, project, team, and tag management, plus a reporting engine for last-week completions, pending tasks, and closed tasks grouped by team/project/owner."
+          tech={["React", "React Router DOM", "Node.js", "Express.js", "MongoDB", "JWT", "Google OAuth", "Joi", "Tailwind CSS", "RBAC"]}
+          demo={"https://work-assign-frontend-6wjt.vercel.app/"}
+          loom = {""}
+          github = {"https://github.com/Rakeshneopane/workAssign-frontend"}
+        />
+
+        <ProjectCard
           title="Anvaya"
           image={anvayaImage}
-          description="An intuitive CRM system designed for lead management with pipeline visualization, automated follow-ups, and detailed analytics."
-          tech={["React", "Node.js", "MongoDB"]}
+         description="A CRM system for lead management, built with Clerk authentication. Tracks customers, leads, and interactions with status updates (New, Contacted, Converted, Lost), agent assignment, tagging, and comment/interaction history on each lead."
+          tech={["React", "React Router", "Node.js", "Express.js", "MongoDB", "REST APIs", "Bootstrap", "Clerk Authentication"]}
           demo={"https://crm-frontend-ten-nu.vercel.app/"}
           loom = {"https://www.loom.com/share/01ec0a872c6f4316ad0ecd71b48de80c"}
           github = {"https://github.com/Rakeshneopane/CRM-frontend.git"}
@@ -83,22 +99,14 @@ export default function Projects() {
         <ProjectCard
           title="Merze"
           image={merzeImage}
-          description="A modern e-commerce platform with real-time inventory management, secure payment processing, and personalized recommendations."
-          tech={["React", "Node.js", "MongoDB"]}
+          description="A full-stack e-commerce application with product browsing, cart management, order placement, and address handling. Focused on building a complete, RESTful frontend-backend workflow with reusable UI components."
+          tech={["React", "React Router", "Node.js", "Express.js", "MongoDB", "REST APIs", "Bootstrap"]}
           demo = {"https://my-ecommerce-frontend-khaki.vercel.app/"}
           loom = {"https://www.loom.com/share/25adf0ed43c242d1adc0fad96495302f"}
           github = {"https://github.com/Rakeshneopane/my-ecommerce-frontend.git"}
         /> 
 
-        <ProjectCard
-          title="WorkAssign"
-          image={workAssignImage}
-          description="A full-stack task management application that helps teams organize work by projects, teams, tags, and owners."
-          tech={["React", "Node.js", "MongoDB"," RBAC", "React Router DOM", "Tailwind CSS", "Joi validation", "JWT authentication"]}
-          demo={"https://work-assign-frontend-6wjt.vercel.app/"}
-          loom = {""}
-          github = {"https://github.com/Rakeshneopane/workAssign-frontend"}
-        />
+       
 
       </div>
     </section>
