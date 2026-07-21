@@ -12,6 +12,7 @@ A modern, responsive personal portfolio website built with React, Vite, and Tail
 - 🎨 Styled with **Tailwind CSS v4**
 - 🔀 Client-side routing via **React Router DOM v7**
 - 📱 Fully responsive design
+- 🖼️ Custom favicon and branding
 - 🚀 Deployed on **Vercel**
 
 ---
@@ -95,9 +96,10 @@ To deploy your own fork:
 
 | Project | Description | Live | Repo |
 |---|---|---|---|
-| WorkAssign | Full-stack task management app with JWT auth | [Live](https://work-assign-frontend.vercel.app/) | [GitHub](https://github.com/Rakeshneopane/workAssign-frontend) |
-| Anvaya CRM | Customer relationship management system | [Live](https://crm-frontend-ten-nu.vercel.app/) | [GitHub](https://github.com/Rakeshneopane/CRM-frontend) |
-| Merze E-Commerce | Online shopping frontend with cart & checkout | [Live](https://my-ecommerce-frontend-khaki.vercel.app/) | [GitHub](https://github.com/Rakeshneopane/my-ecommerce-frontend) |
+| KaviosPix | Full-stack photo platform with Google OAuth, album sharing, and AI-powered captioning/semantic search via a Python/FastAPI microservice on AWS EC2 | [Live](https://kavios-pix-app-mu.vercel.app/) | [GitHub](https://github.com/Rakeshneopane/KaviosPix) |
+| WorkAssign | Full-stack task management app with JWT auth | [Live](https://work-assign-jt.vercel.app) | [GitHub](https://github.com/Rakeshneopane/WorkAssign) |
+| Anvaya CRM | Customer relationship management system | [Live](https://anvaya-crm-ten-nu.vercel.app/) | [GitHub](https://github.com/Rakeshneopane/Anvaya) |
+| Merze E-Commerce | Online shopping frontend with cart & checkout | [Live](https://merze.vercel.app/) | [GitHub](https://github.com/Rakeshneopane/Merze) |
 
 ## 📬 Contact
 

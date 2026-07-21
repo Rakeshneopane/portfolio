@@ -7,26 +7,15 @@ import Footer from "./Footer";
 
 export default function Home(){
     return(
-        <>
+        <div className="min-h-screen flex flex-col">
             <Navbar/>
-            <main>
-                <section id="hero">
-                    <MainSection />
-                </section>
-                
-                <section id="projects">
-                    <Projects/>
-                </section>
-               
-                <section id="skills">
-                    <TechSection />
-                </section>
-                
-                <section id="contact">
-                    <Connect />
-                </section>
+            <main className="flex-1">
+                <MainSection />
+                <Projects/>
+                <TechSection />                
+                <Connect />
                 <Footer />
             </main>
-        </>
+        </div>
     )
 }

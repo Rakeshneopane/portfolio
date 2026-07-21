@@ -45,15 +45,14 @@ function ProjectCard({ title, image, description, tech, demo, loom, github }) {
 
 export default function Projects() {
   return (
-    <section className="max-w-6xl mx-auto px-6 py-16">
-      <h2 className="text-3xl font-bold mb-10 text-center">Projects</h2>
+    <section id="projects" className="max-w-6xl mx-auto px-6 py-16">
+      <h2 className="text-5xl font-bold mb-10 text-center">Projects</h2>
 
       <div className="grid gap-10 md:grid-cols-2">
-
         <ProjectCard
           title="KaviosPix"
           image={kaviosPixImage}
-          description="KaviosPix is a full-stack photo management platform built with React, Redux Toolkit, Node.js, Express, and MongoDB that focuses on solving real-world engineering challenges such as authentication, state persistence, concurrency handling, and permission-based access control while providing secure album organization and sharing capabilities. It also integrates a standalone Python/FastAPI microservice for AI-powered image captioning and semantic search, using Google Gemini's generation and embedding APIs with PostgreSQL/pgvector, containerized with Docker and deployed on AWS EC2."
+          description="A full-stack photo management platform with Google OAuth, permission-based album sharing, and AI-powered captioning and semantic search — backed by a standalone Python/FastAPI microservice using Google Gemini and PostgreSQL/pgvector, containerized with Docker and deployed on AWS EC2."
           tech={["React",
             "Redux Toolkit",
             "React Router DOM",
@@ -71,43 +70,40 @@ export default function Projects() {
             "Docker",
             "AWS EC2",
             "Google Gemini API"]}
-          demo={"https://image-app-frontend-mu.vercel.app/"}
+          demo={"https://kavios-pix-app-mu.vercel.app/"}
           loom = {"https://www.loom.com/share/0a8a820dfe4546a9bb70263e7684def3"}
-          github = {"https://github.com/Rakeshneopane/image-App-frontend"}
+          github = {"https://github.com/Rakeshneopane/KaviosPix"}
         />
 
         <ProjectCard
           title="WorkAssign"
           image={workAssignImage}
-          description="A full-stack task management platform with JWT authentication and role-based access control. Supports task, project, team, and tag management, plus a reporting engine for last-week completions, pending tasks, and closed tasks grouped by team/project/owner."
+          description="A full-stack task management platform with JWT authentication and role-based access control. Organizes work by project, team, and tag, with a reporting engine covering last-week completions, pending tasks, and closed-task breakdowns by owner or team."
           tech={["React", "React Router DOM", "Node.js", "Express.js", "MongoDB", "JWT", "Google OAuth", "Joi", "Tailwind CSS", "RBAC"]}
-          demo={"https://work-assign-frontend-6wjt.vercel.app/"}
+          demo={"https://work-assign-jt.vercel.app"}
           loom = {""}
-          github = {"https://github.com/Rakeshneopane/workAssign-frontend"}
+          github = {"https://github.com/Rakeshneopane/WorkAssign"}
         />
 
         <ProjectCard
           title="Anvaya"
           image={anvayaImage}
-         description="A CRM system for lead management, built with Clerk authentication. Tracks customers, leads, and interactions with status updates (New, Contacted, Converted, Lost), agent assignment, tagging, and comment/interaction history on each lead."
+          description="A CRM built around lead management, authenticated with Clerk. Tracks customers and leads through their full lifecycle — status updates, agent assignment, tagging, and a comment/interaction history — so nothing about a deal gets lost between follow-ups."
           tech={["React", "React Router", "Node.js", "Express.js", "MongoDB", "REST APIs", "Bootstrap", "Clerk Authentication"]}
-          demo={"https://crm-frontend-ten-nu.vercel.app/"}
+          demo={"https://anvaya-crm-ten-nu.vercel.app"}
           loom = {"https://www.loom.com/share/01ec0a872c6f4316ad0ecd71b48de80c"}
-          github = {"https://github.com/Rakeshneopane/CRM-frontend.git"}
+          github = {"https://github.com/Rakeshneopane/Anvaya"}
         />
 
         <ProjectCard
           title="Merze"
           image={merzeImage}
-          description="A full-stack e-commerce application with product browsing, cart management, order placement, and address handling. Focused on building a complete, RESTful frontend-backend workflow with reusable UI components."
+          description="A full-stack e-commerce application covering the complete shopper workflow — product browsing, cart management, address handling, and order placement — built to nail a clean, RESTful frontend-backend integration with reusable UI components before layering on payments or auth."
           tech={["React", "React Router", "Node.js", "Express.js", "MongoDB", "REST APIs", "Bootstrap"]}
-          demo = {"https://my-ecommerce-frontend-khaki.vercel.app/"}
+          demo = {"https://merze.vercel.app/"}
           loom = {"https://www.loom.com/share/25adf0ed43c242d1adc0fad96495302f"}
-          github = {"https://github.com/Rakeshneopane/my-ecommerce-frontend.git"}
-        /> 
-
-       
-
+          github = {"https://github.com/Rakeshneopane/Merze"}
+        />
       </div>
     </section>
   );
