@@ -2,7 +2,7 @@
 
 A modern, responsive personal portfolio website built with React, Vite, and Tailwind CSS. Deployed on Vercel.
 
-🔗 **Live Demo:** https://portfolio-alpha-lime-86.vercel.app/
+🔗 **Live Demo:** https://rakesh-neopane.vercel.app/
 ---
 
 ## ✨ Features
