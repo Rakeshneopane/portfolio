@@ -69,7 +69,9 @@ export default function Projects() {
             "PostgreSQL",
             "Docker",
             "AWS EC2",
-            "Google Gemini API"]}
+            "Google Gemini API",
+            "Vector Embedding"
+          ]}
           demo={"https://kavios-pix-app-mu.vercel.app/"}
           loom = {"https://www.loom.com/share/0a8a820dfe4546a9bb70263e7684def3"}
           github = {"https://github.com/Rakeshneopane/KaviosPix"}
@@ -99,7 +101,7 @@ export default function Projects() {
           title="Merze"
           image={merzeImage}
           description="A full-stack e-commerce application covering the complete shopper workflow — product browsing, cart management, address handling, and order placement — built to nail a clean, RESTful frontend-backend integration with reusable UI components before layering on payments or auth."
-          tech={["React", "React Router", "Node.js", "Express.js", "MongoDB", "REST APIs", "Bootstrap"]}
+          tech={["React", "React Router", "Node.js", "Express.js", "MongoDB", "REST APIs", "Bootstrap", "Tailwind CSS"]}
           demo = {"https://merze.vercel.app/"}
           loom = {"https://www.loom.com/share/25adf0ed43c242d1adc0fad96495302f"}
           github = {"https://github.com/Rakeshneopane/Merze"}
